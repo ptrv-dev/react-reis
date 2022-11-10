@@ -53,7 +53,7 @@ const Header: React.FC = () => {
   const { pathname } = useLocation();
 
   return (
-    <header>
+    <Box component={'header'} position="absolute" zIndex={10} width={'100%'}>
       {/* Header Top */}
       <Container
         disableGutters
@@ -106,8 +106,10 @@ const Header: React.FC = () => {
           </Link>
         </Box>
       </Container>
-      {/* Header Bottom */}
+
       <Divider sx={{ bgcolor: '#fff' }} />
+
+      {/* Header Bottom */}
       <Container
         disableGutters
         sx={{
@@ -142,7 +144,7 @@ const Header: React.FC = () => {
           ))}
         </nav>
       </Container>
-    </header>
+    </Box>
   );
 };
 

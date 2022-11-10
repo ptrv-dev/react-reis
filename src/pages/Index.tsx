@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import Hero from '../components/IndexPage/Hero';
 
 const Index: React.FC = () => {
-  return <Container>Index Page</Container>;
+  return <Hero />;
 };
 
 export default Index;

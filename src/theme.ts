@@ -7,6 +7,9 @@ theme = createTheme({
     primary: {
       main: '#fff',
     },
+    secondary: {
+      main: '#4A60A1',
+    },
   },
   components: {
     MuiContainer: {
@@ -35,6 +38,14 @@ theme = createTheme({
   },
   typography: {
     fontFamily: 'Inter',
+    h2: {
+      fontSize: '52px',
+      fontWeight: 600,
+    },
+    h3: {
+      fontSize: '40px',
+      fontWeight: 600,
+    },
   },
 });
 
