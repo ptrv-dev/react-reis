@@ -1,4 +1,5 @@
 import React from 'react';
+import BestPlace from '../components/IndexPage/BestPlace';
 
 import Hero from '../components/IndexPage/Hero';
 import LatestPropertiesGrid from '../components/IndexPage/LatestPropertiesGrid';
@@ -12,6 +13,7 @@ const Index: React.FC = () => {
       <PropertiesByArea />
       <OurAdvantages />
       <LatestPropertiesGrid />
+      <BestPlace />
     </>
   );
 };
