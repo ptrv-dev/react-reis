@@ -40,7 +40,9 @@ const OurAdvantages: React.FC = () => {
             <Grid
               key={idx}
               item
-              xs={3}
+              xs={12}
+              sm={6}
+              lg={3}
               p={3}
               sx={{
                 transition:

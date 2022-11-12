@@ -14,15 +14,15 @@ const Footer: React.FC = () => {
   return (
     <Box pt={'100px'} pb={'50px'}>
       <Container>
-        <Grid container wrap={'nowrap'} justifyContent={'space-between'}>
-          <Grid item xs={4}>
+        <Grid container justifyContent={'space-between'}>
+          <Grid item xs={12} md={4}>
             <Link href="/">
               <img
                 src="./assets/img/logo-secondary.svg"
                 alt="REIS | Real Estate"
               />
             </Link>
-            <Typography variant="h5" sx={{ fontWeight: 600 }}>
+            <Typography variant="h5" sx={{ fontWeight: 600 }} mt={2}>
               Contact us
             </Typography>
             <List sx={{ color: '#6D737A' }}>

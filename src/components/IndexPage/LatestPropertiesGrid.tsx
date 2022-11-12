@@ -100,7 +100,7 @@ const LatestPropertiesGrid: React.FC = () => {
         />
         <Grid container spacing={3} mt={4}>
           {latestProductsData.map((item, idx) => (
-            <Grid key={idx} item xs={4}>
+            <Grid key={idx} item xs={12} sm={6} md={4}>
               <Card>
                 <CardMedia
                   component="img"

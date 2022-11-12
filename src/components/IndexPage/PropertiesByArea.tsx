@@ -24,7 +24,14 @@ const PropertiesByArea: React.FC = () => {
         />
         <Grid container spacing={3} mt={5}>
           {areaData.map((item, idx) => (
-            <Grid key={idx} item xs={item.large ? 8 : 4} height={'240px'}>
+            <Grid
+              key={idx}
+              item
+              xs={12}
+              sm={6}
+              md={item.large ? 8 : 4}
+              height={'240px'}
+            >
               <Card
                 sx={{
                   position: 'relative',

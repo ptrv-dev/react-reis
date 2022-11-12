@@ -29,7 +29,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
         {title}
       </Typography>
       {subtitle && (
-        <Typography fontSize={'20px'} color={white ? '#EDEFF6' : '#889099'}>
+        <Typography variant={'subtitle1'} color={white ? '#EDEFF6' : '#889099'}>
           {subtitle}
         </Typography>
       )}

@@ -25,12 +25,14 @@ theme = createTheme({
         },
         disableGutters: {
           maxWidth: '100%',
-          [theme.breakpoints.up('lg')]: {
-            maxWidth: '100%',
-          },
           [theme.breakpoints.up('xs')]: {
+            paddingLeft: '15px',
+            paddingRight: '15px',
+          },
+          [theme.breakpoints.up('lg')]: {
             paddingLeft: '100px',
             paddingRight: '100px',
+            maxWidth: '100%',
           },
         },
       },
@@ -39,12 +41,42 @@ theme = createTheme({
   typography: {
     fontFamily: 'Inter',
     h2: {
-      fontSize: '52px',
       fontWeight: 600,
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '28px',
+      },
+      [theme.breakpoints.up('sm')]: {
+        fontSize: '40px',
+      },
+      [theme.breakpoints.up('md')]: {
+        fontSize: '48px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '52px',
+      },
     },
     h3: {
-      fontSize: '40px',
       fontWeight: 600,
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '24px',
+      },
+      [theme.breakpoints.up('sm')]: {
+        fontSize: '32px',
+      },
+      [theme.breakpoints.up('md')]: {
+        fontSize: '32px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '40px',
+      },
+    },
+    subtitle1: {
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '18px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '20px',
+      },
     },
   },
 });
