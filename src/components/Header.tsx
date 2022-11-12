@@ -40,14 +40,14 @@ const socialItems = [
 
 const navigationItems = [
   { title: 'Home', href: '/' },
-  { title: 'About us', href: '/about-us' },
-  { title: 'Our agents', href: '/our-agents' },
-  { title: 'Properties', href: '/properties' },
-  { title: 'Gallery', href: '/gallery' },
-  { title: 'Blog', href: '/blog' },
-  { title: 'Contact us', href: '/contact-us' },
-  { title: 'Search', href: '/search' },
-  { title: 'Add Listing', href: '/add-listing', outlined: true },
+  { title: 'About us', href: '/' },
+  { title: 'Our agents', href: '/' },
+  { title: 'Properties', href: '/' },
+  { title: 'Gallery', href: '/' },
+  { title: 'Blog', href: '/' },
+  { title: 'Contact us', href: '/' },
+  { title: 'Search', href: '/' },
+  { title: 'Add Listing', href: '/', outlined: true },
 ];
 
 const Header: React.FC = () => {
